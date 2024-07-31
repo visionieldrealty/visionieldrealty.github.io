@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-custom {
+  font-size: 7.6rem;
+  line-height: 1;
+}
+
+.rounded-custom {
+  border-start-start-radius: 7rem;
+}
+
+.rounded-custom-2 {
+  border-radius: 2rem;
+}
+
+.rounded-custom-3 {
+  border-radius: 3rem;
+}
+
+.rounded-custom-4 {
+  border-top-left-radius: 7rem;
+  border-bottom-left-radius: 0rem;
+}
+
+.font-dm-sans {
+  font-family: "DM Sans", sans-serif;
+}
+
+.shadow-custom {
+  --tw-shadow: 0 25px 50px 0px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-custom:hover {
+  --tw-shadow: 0 25px 50px 0px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-custom-2 {
+  --tw-shadow: 0px 4px 44px 0px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0px 0px 0px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-custom-2:hover {
+  --tw-shadow: 0px 4px 22px 0px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0px 0px 0px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-custom-3 {
+  --tw-shadow: 0px 4px 44px 0px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0px 0px 0px 0px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.rounded-5xl {
+  border-radius: 2.2rem;
+}
+
+.text-orange-custom {
+  color: #e84c3d;
+}
+
+.bg-gray-600 {
+  background-color: #404040;
+}
+
+.bg-gray-custom-2 {
+  background-color: #303030;
+}
+
+.hover-bg-gray-600:hover {
+  background-color: #404040;
+}
+
+.w-custom-1 {
+  width: 10px;
+}
+
+.text-custom-2 {
+  font-size: 3.3rem;
+  line-height: 1;
+}
+
+.h-custom {
+  height: 45rem;
+}
+
+.h-custom-1 {
+  height: 32rem;
+}
+
+.h-custom-2 {
+  height: 45rem;
+}
+
+.h-custom-3 {
+  height: 55rem;
+}
+
+.text-custom-3 {
+  font-size: 2.75rem;
+  line-height: 1;
+}
+
+.min-h-custom-2 {
+  min-height: 30rem;
+}
+
+.fade-down {
+  opacity: 0;
+  animation: fadeIn 100ms ease-in both;
+}
+
+.fade-down1 {
+  opacity: 0;
+  animation: fadeIn1 125ms ease-in both;
+}
+
+.fade-down2 {
+  opacity: 0;
+  animation: fadeIn2 150ms ease-in both;
+}
+
+.fade-down3 {
+  opacity: 0;
+  animation: fadeIn3 175ms ease-in both;
+}
+
+.fade-down4 {
+  opacity: 0;
+  animation: fadeIn4 200ms ease-in both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -70%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeIn1 {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -140%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeIn2 {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -210%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeIn3 {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -280%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes fadeIn4 {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -350%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@media (min-width: 768px) {
+  .md-text-custom {
+    font-size: 7rem;
+    line-height: 1;
+  }
+  .md-text-custom {
+    font-size: 7rem;
+    line-height: 1;
+  }
+  .md-text-custom-2 {
+    font-size: 4rem;
+    line-height: 1;
+  }
+  .leading-100 {
+    line-height: 10rem;
+  }
+  .rounded-custom-2 {
+    border-radius: 4rem;
+  }
+  .rounded-custom-4 {
+    border-bottom-left-radius: 8rem;
+    border-top-left-radius: 0rem;
+  }
+  .md-bg-gray-600 {
+    background-color: #404040;
+  }
+  .min-h-custom-2 {
+    min-height: 780px;
+  }
+}
