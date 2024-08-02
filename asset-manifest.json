@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f693e2c.css",
+    "main.js": "/static/js/main.386e61d8.js",
+    "static/media/Shubham.jpg": "/static/media/Shubham.73058382bc8d8861a53a.jpg",
+    "static/media/Renuka.jpg": "/static/media/Renuka.e224d91cc0ca948576da.jpg",
+    "static/media/homePage1.png": "/static/media/homePage1.e0d148144d63d16846aa.png",
+    "static/media/homePage2.png": "/static/media/homePage2.44a238baed664cc8a857.png",
+    "static/media/servicePage3.png": "/static/media/servicePage3.38b3f04326617892c72c.png",
+    "static/media/servicePage4.png": "/static/media/servicePage4.b414e07aad8d60f52548.png",
+    "static/media/servicePage1.png": "/static/media/servicePage1.215ec8f846f025bb1aa6.png",
+    "static/media/servicePage2.png": "/static/media/servicePage2.111602012cd6e2e27c3d.png",
+    "static/media/aboutPage2.png": "/static/media/aboutPage2.b69d808565d31cf18657.png",
+    "static/media/visionNmission.crop.png": "/static/media/visionNmission.crop.dc893c53badf27340966.png",
+    "static/media/fullLogo.png": "/static/media/fullLogo.571afb577ee7de0fa23b.png",
+    "static/media/contactPage1.png": "/static/media/contactPage1.df1c9a3d54aa5bbb9553.png",
+    "static/media/Home-Banner-6.jpg": "/static/media/Home-Banner-6.c1c2a3072667ed7072fa.jpg",
+    "static/media/contactPage3.jpg": "/static/media/contactPage3.e249d3f6aec6e04caf84.jpg",
+    "static/media/linkedinLogo.png": "/static/media/linkedinLogo.40f603ad1a7361a98608.png",
+    "static/media/homePage3.png": "/static/media/homePage3.693bd2d80ebc2a03da2b.png",
+    "static/media/Aatam.crop.jpg": "/static/media/Aatam.crop.b6b2472d4fa93e37d8eb.jpg",
+    "static/media/homePage6.png": "/static/media/homePage6.5a970cf1cf9a209e82d4.png",
+    "static/media/aboutPage5.png": "/static/media/aboutPage5.8c78d125507ad381bef9.png",
+    "static/media/contactPage2.png": "/static/media/contactPage2.1e5295c91aed4c09c49a.png",
+    "static/media/homePage4.png": "/static/media/homePage4.b21d3163a01f6c97e864.png",
+    "static/media/aboutPage4.png": "/static/media/aboutPage4.bfa2ea930a7e2ce9b2da.png",
+    "static/media/homePage5.png": "/static/media/homePage5.79ad313eab37b40a93d7.png",
+    "index.html": "/index.html",
+    "main.5f693e2c.css.map": "/static/css/main.5f693e2c.css.map",
+    "main.386e61d8.js.map": "/static/js/main.386e61d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f693e2c.css",
+    "static/js/main.386e61d8.js"
+  ]
+}
