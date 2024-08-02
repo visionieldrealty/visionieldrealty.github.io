@@ -46,7 +46,7 @@ export default function About() {
               Realty Partners
             </motion.div>
             <div className="flex flex-col md:flex-row gap-5 md:gap-0">
-              <div className="text-center md:mr-8 md:text-left font-light leading-7">
+              <div className="px-3 text-center md:mr-8 md:text-left font-light leading-7">
                 At Visionield Realty, we pride ourselves on our commitment to
                 excellence, integrity, and innovation. We are not just service
                 providers; we are partners in progress, offering comprehensive
@@ -76,8 +76,8 @@ export default function About() {
           />
         </div>
       </div>
-      <div className="bg-white flex flex-col justify-between md:flex-row px-6 md:pl-10 pt-10 md:pt-40 mb-28 md:mb-48">
-        <div className="md:w-5/12 flex flex-col pb-4 md:pb-40 pt-5 md:pt-10 gap-5">
+      <div className="bg-white flex flex-col justify-between md:flex-row md:pl-10 pt-10 md:pt-40 mb-28 md:mb-48">
+        <div className="md:w-5/12 flex flex-col pb-4 md:pb-40 pt-5 md:pt-10 gap-5 px-6">
           <motion.div
             initial={isMobile && { opacity: 0 }}
             whileInView={isMobile && { opacity: 1 }}
@@ -118,7 +118,7 @@ export default function About() {
           </div>
         </div>
 
-        <motion.div className="flex flex-col md:pl-10 md:w-7/12 gap-5 mt-10 md:pt-10 md:pr-10 md:mt-0 overflow-y-hidden">
+        <motion.div className="flex flex-col md:pl-10 md:w-7/12 gap-5 mt-10 md:pt-10 md:pr-10 md:mt-0 overflow-y-hidden px-6 py-6">
           <motion.div className="flex flex-col md:flex-row gap-5">
             <motion.div
               // initial={isMobile && { y: -400, opacity: 0 }}
@@ -328,7 +328,7 @@ export default function About() {
               alt=""
             />
             Aatam Shah
-            <div className="text-lg">Boss</div>
+            <div className="text-lg">Founder &amp; Director</div>
           </div>
           <div className="md:w-1/3 text-2xl text-center md:text-left mb-4 md:mb-0">
             <motion.img
@@ -340,8 +340,8 @@ export default function About() {
               src={Shubham}
               alt=""
             />
-            Dean Mayster
-            <div className="text-lg">SOCIAL &amp; PPC EXPERT</div>
+            Shubham Shane
+            <div className="text-lg">Sales Manager</div>
           </div>
           <div className="md:w-1/3 text-2xl text-center md:text-left mb-4 md:mb-0">
             <motion.img
@@ -353,8 +353,8 @@ export default function About() {
               src={Renuka}
               alt=""
             />
-            Dean Mayster
-            <div className="text-lg">SOCIAL &amp; PPC EXPERT</div>
+            Renuka Chandak
+            <div className="text-lg">Marketing &amp; Branding Manager</div>
           </div>
         </div>
       </div>

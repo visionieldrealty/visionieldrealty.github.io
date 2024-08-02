@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
         <div className="md:w-7/12">
           <img
-            className="w-full md:h-full object-cover rounded-custom-4 h-screen"
+            className="w-full md:h-full object-cover rounded-custom-4 h-custom-2"
             src={footerImg}
             alt=""
           />

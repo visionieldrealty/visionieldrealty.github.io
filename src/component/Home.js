@@ -356,7 +356,9 @@ export default function Home() {
               <div className="text-4xl font-semibold text-center">
                 Aatam Shah
               </div>
-              <div className="text-lg font-medium text-center">Boss</div>
+              <div className="text-lg font-medium text-center">
+                Founder &amp; Director
+              </div>
             </div>
           </div>
         </div>

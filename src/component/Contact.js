@@ -76,19 +76,24 @@ export default function Services() {
             touch shortly to schedule a call or send email and discuss your
             requirements further.
           </div>
-          <div className="flex flex-col md:flex-row mt-12 md:mt-20 md:justify-between pr-5 gap-16 md:gap-0">
-            <div className="flex flex-col items-center md:items-start w-1/2">
-              <img className="w-auto h-10" src={contactPage1} alt="" />
-              <div className="mb-5 mt-2">GIVE US A CALL OR A MESSAGE</div>
-              <div>+91 6359429294</div>
+          <div className="flex flex-col md:flex-row my-8 md:my-20 md:justify-between mx-auto items-center gap-16 md:gap-5">
+            <div className="flex flex-col items-center md:items-start md:w-1/2">
+              <img className="w-8" src={contactPage1} alt="" />
+              <div className="my-4 text-sm text-center md:text-left">
+                GIVE US A CALL OR A MESSAGE
+              </div>
+              <div className="text-sm">+91 6359429294</div>
               <div>contact@visionieldrealty.com</div>
             </div>
-            <div className="flex flex-col items-center md:items-start w-1/2">
-              <img className="w-auto h-10" src={contactPage2} alt="" />
-              <div className="mb-5 mt-2">OUR LOCATION</div>
-              <div>
-                12, Kalpana Flats, B/H Narmada Guest House, Race Course Rd,
-                Vadodara 390007.
+            <div className="flex flex-col items-center md:items-start md:w-1/2">
+              <img className="w-8" src={contactPage2} alt="" />
+              <div className="my-4 text-sm text-center md:text-left">
+                OUR LOCATION
+              </div>
+              <div className="text-sm">
+                12, Kalpana Flats,
+                <br /> B/H Narmada Guest House,
+                <br /> Race Course Rd, Vadodara 390007.
               </div>
             </div>
           </div>
@@ -129,7 +134,7 @@ export default function Services() {
             </div>
           )}
           <button
-            onClick={handleSubmit}
+            onClick={() => {}}
             className="transition duration-200 ease-in-out border-solid border-2 border-black rounded-5xl px-12 py-4 w-max bg-black hover:bg-white hover:text-black text-white mx-auto"
           >
             CONTACT US
