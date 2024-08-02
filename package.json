@@ -1,7 +1,7 @@
 {
   "name": "react_project",
   "version": "0.1.0",
-  "homepage": "https://visionieldrealty.github.io",
+  "homepage": "https://www.visionieldrealty.com",
   "private": true,
   "dependencies": {
     "@react-email/components": "0.0.17",
