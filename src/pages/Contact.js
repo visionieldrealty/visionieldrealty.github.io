@@ -28,29 +28,6 @@ export default function Services() {
     });
   };
 
-  const handleSubmit = async () => {
-    if (!fullname || !email || !message || !contact) {
-      setError(true);
-      return;
-    }
-    try {
-      await sendMailCustomer({
-        fullname,
-        email,
-        message,
-        contact,
-      });
-      setFullname("");
-      setEmail("");
-      setMessage("");
-      setContact("");
-      setError(false);
-      navigate("/success");
-    } catch (error) {
-      console.log(`something went wrong`);
-    }
-  };
-
   return (
     <main>
       <div className="bg-gray-custom-2 text-white text-center pt-20 mb-20">
